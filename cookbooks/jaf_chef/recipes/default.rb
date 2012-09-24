@@ -11,7 +11,7 @@ log "johns log"
 log "rsync test"
 
 package "tmux"
-log "The input fmor the dashbpard is #{node[:jaf_chef][:iinput]}"
+log "The input fmor the dashboard is #{node[:jaf_chef][:iinput]}"
 
 rightscale_marker :end
 

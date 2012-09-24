@@ -10,7 +10,7 @@ recipe "jaf_chef::default","jaf_chef::default description"
 depends "rightscale"
 
 attribute "jaf_chef/iinput",
-:display_name => "A custom chef input",
+:display_name => "Another custom chef input",
 :choice => ["A", "B", "C"],
 :recipe => ["jaf_chef::default"],
 :required => "required"
