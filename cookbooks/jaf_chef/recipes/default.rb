@@ -8,4 +8,12 @@
 #
 rightscale_marker :begin
 log "johns log"
+log "rsync test"
+
+package "tmux"
+
 rightscale_marker :end
+
+log "The input fmor the dashbpard is #{node[:jaf_chef][:iinput]}"
+
+

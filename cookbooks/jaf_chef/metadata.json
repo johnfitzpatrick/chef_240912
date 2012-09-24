@@ -1,31 +1,48 @@
 {
   "providing": {
   },
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "conflicting": {
-  },
-  "recommendations": {
-  },
   "name": "jaf_chef",
   "recipes": {
     "jaf_chef::default": "jaf_chef::default description"
   },
-  "groupings": {
+  "recommendations": {
   },
-  "version": "0.0.1",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "attributes": {
+    "jaf_chef/iinput": {
+      "choice": [
+        "A",
+        "B",
+        "C"
+      ],
+      "recipes": [
+
+      ],
+      "recipe": [
+        "jaf_chef::default"
+      ],
+      "display_name": "A custom chef input",
+      "calculated": false,
+      "type": "string",
+      "required": "required"
+    }
+  },
   "replacing": {
   },
-  "maintainer_email": "YOUR_EMAIL",
-  "description": "Installs/Configures jaf_chef",
   "suggestions": {
-  },
-  "dependencies": {
-    "rightscale": ">= 0.0.0"
-  },
-  "attributes": {
   },
   "platforms": {
   },
+  "version": "0.0.1",
+  "groupings": {
+  },
+  "maintainer": "YOUR_COMPANY_NAME",
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
   "license": "All rights reserved",
-  "maintainer": "YOUR_COMPANY_NAME"
+  "description": "Installs/Configures jaf_chef",
+  "conflicting": {
+  },
+  "maintainer_email": "YOUR_EMAIL"
 }
