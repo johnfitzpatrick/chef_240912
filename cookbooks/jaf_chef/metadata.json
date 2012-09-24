@@ -1,0 +1,30 @@
+{
+  "license": "All rights reserved",
+  "maintainer_email": "YOUR_EMAIL",
+  "suggestions": {
+  },
+  "recommendations": {
+  },
+  "platforms": {
+  },
+  "version": "0.0.1",
+  "conflicting": {
+  },
+  "maintainer": "YOUR_COMPANY_NAME",
+  "providing": {
+  },
+  "dependencies": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "attributes": {
+  },
+  "name": "jaf_chef",
+  "recipes": {
+    "jaf_chef::default": "jaf_chef::default description"
+  },
+  "groupings": {
+  },
+  "description": "Installs/Configures jaf_chef",
+  "replacing": {
+  }
+}
