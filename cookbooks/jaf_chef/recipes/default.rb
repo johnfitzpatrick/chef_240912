@@ -7,4 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 
-logs "johns log"
+log "johns log"
