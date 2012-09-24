@@ -6,3 +6,5 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.0.1"
 
 recipe "jaf_chef::default","jaf_chef::default description"
+
+depends "rightscale"

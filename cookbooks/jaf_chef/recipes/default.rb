@@ -6,5 +6,6 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-
+rightscale_marker :begin
 log "johns log"
+rightscale_marker :end
